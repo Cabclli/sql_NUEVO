@@ -1,0 +1,1 @@
+sELECT count(actor_id),film_id from film_actor GROUP by film_id ORDER by  count(actor_id) DESC;
